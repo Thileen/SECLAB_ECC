@@ -1,13 +1,34 @@
 # SECLAB_ECC
 
-SECLAB_ECC is a collection with some scalar multiplication with countermeasures for the elliptic curve in Weierstrass and Twisted Edwards for. 
+SECLAB_ECC is a collection with some scalar multiplication with countermeasures for the elliptic curve in Weierstrass and Twisted Edwards form. The scalar multiplication is implemented with the binary method. 
 
-The following countermeasures are implemented:
+These following countermeasures are implemented:
 
-* Double-And-Add-Always
-* Montgomery-Ladder
-* Randomised Sliding Window
-* Randomised Scalar
-* Randomised Scalar Splitting
-* Projective Coordinate Randomis
-* 
+* Double-And-Add-Always 
+* Montgomery Ladder
+* Scalar Randomization
+* Randomized Scalar Splitting
+* Random Projective Coordinates
+* Randomized Sliding Window
+
+The following domain parameter can be used for the elliptic curve in Weierstrass form:
+
+* p_192
+* p_224
+* p_256
+* p_384
+* p_521
+* secp128r1
+* secp192k1
+* secp256k1
+* secp256r1
+* brainpoolP256r1
+* brainpoolP320r1
+* brainpoolP384r1
+* brainpoolP512r1
+
+and for the elliptic cuve in Twisted Edwards form 
+
+* ed25519
+
+The testbench.c provide a cup of examples how to use the implementations
