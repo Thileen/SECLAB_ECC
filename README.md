@@ -31,4 +31,6 @@ and for the elliptic cuve in Twisted Edwards form
 
 * ed25519
 
+The reduction is calculated by the Barrett-Reduction, only for the domain parameter p_256 exist the fast reduction mathod.
+
 The testbench.c provide a cup of examples how to use the implementations
