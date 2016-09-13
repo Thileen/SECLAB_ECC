@@ -1,6 +1,6 @@
 # SECLAB_ECC
 
-SECLAB_ECC is a collection with some scalar multiplication with countermeasures for the elliptic curve in Weierstrass and Twisted Edwards form. The scalar multiplication is implemented with the binary method. 
+SECLAB_ECC is a collection with some 32-bit scalar multiplication including countermeasures for the elliptic curve in Weierstrass and Twisted Edwards form. The scalar multiplication is implemented with the binary method. 
 
 These following countermeasures are implemented:
 
