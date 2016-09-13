@@ -1,6 +1,6 @@
 # SECLAB_ECC
 
-SECLAB_ECC is a collection with some 32-bit scalar multiplication including countermeasures for the elliptic curve in Weierstrass and Twisted Edwards form. The scalar multiplication is implemented with the binary method. 
+SECLAB_ECC is a collection with some 32-bit scalar multiplication over a finite field including countermeasures for the elliptic curve in Weierstrass and Twisted Edwards form. The scalar multiplication is implemented with the binary method. 
 
 These following countermeasures are implemented:
 
@@ -34,3 +34,7 @@ and for the elliptic cuve in Twisted Edwards form
 The reduction is calculated by the Barrett-Reduction, only for the domain parameter p_256 exist the fast reduction mathod.
 
 The testbench.c provide a cup of examples how to use the implementations
+
+# ToDo:
+* implement more domain parameter
+* implement ECC scheme (ECDH, ECDIAS, ECDSA)
